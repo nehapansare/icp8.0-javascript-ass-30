@@ -1,0 +1,54 @@
+#bg-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bulb-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    
+}
+#img-bulb{
+    width: 150px;
+}
+button{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    
+}
+button:hover{
+      background: linear-gradient(#ff4b2b,#ff416c);
+      transform: scale(0.9);
+}
+.sun-icon{
+    width: 40px;
+}
+.moon-icon{
+    width: 40px;
+}
+.theme-select{
+    right: 5px;
+    position: fixed;
+    top:0;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.bg-dark{
+    background-color: #121212;
+
+}
+.bg-light{
+      background-color:	#d2d3db;
+}
